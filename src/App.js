@@ -1,6 +1,4 @@
 import "./styles.css";
-import Youtube from "./Youtube.js";
-import Aulas from "./Aulas.js";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
@@ -21,7 +19,9 @@ export default function App() {
           <Navegacao />
         </Col>
       </Row>
-      <Row>Outras informações..</Row>
+      <Row>
+        <span className="espaco"></span>
+      </Row>
       <Row>
         <Rodape />
       </Row>

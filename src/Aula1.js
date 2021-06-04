@@ -7,14 +7,18 @@ export default function Aula1() {
   return (
     <Container>
       <Row>
-        <YoutubeEmbed embedId="9iMempGKs6g" />
+        <YoutubeEmbed embedId="WN3YI5htWyE" />
       </Row>
       <Row>
         <Card>
           <Card.Body>
-            <Card.Title>Aula 1 - Blá blá blá..</Card.Title>
+            <Card.Title>
+              Aula 1 - Dos primeiros passos ao primeiro planejamento
+            </Card.Title>
             <Card.Text>
-              Nessa aula, falaremos sobre blá blá blá blá blá blá
+              A primeira aula da maratona alfabetize em 3 meses, aonde
+              começaremos a fazer o planejamento para a alfabetização da sua
+              criança.
             </Card.Text>
           </Card.Body>
         </Card>
