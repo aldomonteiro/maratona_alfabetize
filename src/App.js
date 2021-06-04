@@ -21,6 +21,7 @@ export default function App() {
           <Navegacao />
         </Col>
       </Row>
+      <Row>Outras informações..</Row>
       <Row>
         <Rodape />
       </Row>
