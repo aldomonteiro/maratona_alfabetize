@@ -13,16 +13,16 @@ export default function Navegacao() {
           <Col>
             <ListGroup horizontal>
               <ListGroup.Item action href="#aula1" variant="danger">
-                Aula 1 - Disponível
+                Aula 1 - 04/06
               </ListGroup.Item>
               <ListGroup.Item disabled action href="#aula2" variant="danger">
-                Aula 2 - Em breve
+                Aula 2 - 06/06
               </ListGroup.Item>
               <ListGroup.Item disabled action href="#aula3" variant="danger">
-                Aula 3 - Em breve
+                Aula 3 - 08/06
               </ListGroup.Item>
               <ListGroup.Item disabled action href="#aula4" variante="danger">
-                Aula 4 - Em breve
+                Aula 4 - 10/06
               </ListGroup.Item>
             </ListGroup>
           </Col>
