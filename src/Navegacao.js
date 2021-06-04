@@ -1,7 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Youtube from "./Youtube.js";
-import { ListGroup, Tab } from "react-bootstrap";
+import { Card, Container, ListGroup, Tab } from "react-bootstrap";
 
 export default function Navegacao() {
   return (
@@ -12,13 +12,13 @@ export default function Navegacao() {
             <ListGroup.Item action href="#aula1">
               Aula 1 - Disponível
             </ListGroup.Item>
-            <ListGroup.Item action href="#aula2">
+            <ListGroup.Item disabled action href="#aula2">
               Aula 2 - Em breve
             </ListGroup.Item>
-            <ListGroup.Item action href="#aula3">
+            <ListGroup.Item disabled action href="#aula3">
               Aula 3 - Em breve
             </ListGroup.Item>
-            <ListGroup.Item action href="#aula4">
+            <ListGroup.Item disabled action href="#aula4">
               Aula 4 - Em breve
             </ListGroup.Item>
           </ListGroup>
@@ -28,7 +28,21 @@ export default function Navegacao() {
         <Col>
           <Tab.Content>
             <Tab.Pane eventKey="#aula1">
-              <Youtube embedId="9iMempGKs6g" />
+              <Container>
+                <Row>
+                  <Youtube embedId="9iMempGKs6g" />
+                </Row>
+                <Row>
+                  <Card>
+                    <Card.Body>
+                      <Card.Title>Aula 1 - Blá blá blá..</Card.Title>
+                      <Card.Text>
+                        Nessa aula, falaremos sobre blá blá blá blá blá blá
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Row>
+              </Container>
             </Tab.Pane>
             <Tab.Pane eventKey="#aula2">
               <Youtube embedId="oNvwxutk2c4" />
