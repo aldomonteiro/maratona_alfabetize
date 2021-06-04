@@ -2,6 +2,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Youtube from "./Youtube.js";
 import { Card, Container, ListGroup, Tab } from "react-bootstrap";
+import Aula1 from "./Aula1.js";
+import Aula2 from "./Aula2.js";
 
 export default function Navegacao() {
   return (
@@ -28,24 +30,10 @@ export default function Navegacao() {
         <Col>
           <Tab.Content>
             <Tab.Pane eventKey="#aula1">
-              <Container>
-                <Row>
-                  <Youtube embedId="9iMempGKs6g" />
-                </Row>
-                <Row>
-                  <Card>
-                    <Card.Body>
-                      <Card.Title>Aula 1 - Blá blá blá..</Card.Title>
-                      <Card.Text>
-                        Nessa aula, falaremos sobre blá blá blá blá blá blá
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Row>
-              </Container>
+              <Aula1 />
             </Tab.Pane>
             <Tab.Pane eventKey="#aula2">
-              <Youtube embedId="oNvwxutk2c4" />
+              <Aula2 />
             </Tab.Pane>
             <Tab.Pane eventKey="#aula3">
               <Youtube embedId="4VA6pB9jjCQ" />
