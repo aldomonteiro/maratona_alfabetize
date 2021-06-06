@@ -7,14 +7,19 @@ export default function Aula2() {
   return (
     <Container>
       <Row>
-        <YoutubeEmbed embedId="9iMempGKs6g" />
+        <YoutubeEmbed embedId="_GVdtTws3u8" />
       </Row>
       <Row>
         <Card>
           <Card.Body>
-            <Card.Title>Aula 2 - Blá blá blá..</Card.Title>
+            <Card.Title>
+              Aula 2 - Ingredientes e primeiro planejamento pedagógico
+            </Card.Title>
             <Card.Text>
-              Nessa aula, falaremos sobre blá blá blá blá blá blá
+              Falaremos dos ingredientes para um trabalho pedagógico com
+              eficiência e também trabalharemos nosso primeiro planejamento
+              pedagógico. Planejamento este que terá todo um acompanhamento
+              diretamente comigo Aline Marius.
             </Card.Text>
           </Card.Body>
         </Card>

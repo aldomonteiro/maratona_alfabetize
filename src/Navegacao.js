@@ -8,14 +8,14 @@ import Aula2 from "./Aula2.js";
 export default function Navegacao() {
   return (
     <Container fluid>
-      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#aula1">
+      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#aula2">
         <Row>
           <Col>
             <ListGroup horizontal>
               <ListGroup.Item action href="#aula1" variant="danger">
                 Aula 1 - 04/06
               </ListGroup.Item>
-              <ListGroup.Item disabled action href="#aula2" variant="danger">
+              <ListGroup.Item action href="#aula2" variant="danger">
                 Aula 2 - 06/06
               </ListGroup.Item>
               <ListGroup.Item disabled action href="#aula3" variant="danger">
