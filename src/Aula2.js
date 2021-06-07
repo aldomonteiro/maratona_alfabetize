@@ -21,6 +21,12 @@ export default function Aula2() {
               pedagógico. Planejamento este que terá todo um acompanhamento
               diretamente comigo Aline Marius.
             </Card.Text>
+            <Card.Link
+              target="_blank"
+              href="https://drive.google.com/file/d/1hGyz6MRjtqIYg-ql_wVsdSCxq3tV0jZt/view?usp=sharing"
+            >
+              Material auxiliar para download.
+            </Card.Link>
           </Card.Body>
         </Card>
       </Row>
