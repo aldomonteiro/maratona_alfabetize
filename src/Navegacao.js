@@ -9,7 +9,7 @@ import Aula3 from "./Aula3.js";
 export default function Navegacao() {
   return (
     <Container fluid>
-      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#aula2">
+      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#aula3">
         <Row>
           <Col>
             <ListGroup horizontal>
