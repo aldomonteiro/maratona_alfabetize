@@ -1,9 +1,10 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Youtube from "./Youtube.js";
-import { Card, Container, ListGroup, Tab } from "react-bootstrap";
+import { Container, ListGroup, Tab } from "react-bootstrap";
 import Aula1 from "./Aula1.js";
 import Aula2 from "./Aula2.js";
+import Aula3 from "./Aula3.js";
 
 export default function Navegacao() {
   return (
@@ -18,7 +19,7 @@ export default function Navegacao() {
               <ListGroup.Item action href="#aula2" variant="danger">
                 Aula 2 - 06/06
               </ListGroup.Item>
-              <ListGroup.Item disabled action href="#aula3" variant="danger">
+              <ListGroup.Item action href="#aula3" variant="danger">
                 Aula 3 - 08/06
               </ListGroup.Item>
               <ListGroup.Item disabled action href="#aula4" variante="danger">
@@ -37,7 +38,7 @@ export default function Navegacao() {
                 <Aula2 />
               </Tab.Pane>
               <Tab.Pane eventKey="#aula3">
-                <Youtube embedId="4VA6pB9jjCQ" />
+                <Aula3 />
               </Tab.Pane>
               <Tab.Pane eventKey="#aula4">
                 <Youtube embedId="eqaxodkF8Pc" />
