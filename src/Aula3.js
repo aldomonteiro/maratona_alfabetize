@@ -20,12 +20,12 @@ export default function Aula3() {
               com a percepção auditiva aguçada ampliando sua capacidade de
               compreensão na Alfabetização propriamente dita.
             </Card.Text>
-            {/* <Card.Link
+            <Card.Link
               target="_blank"
               href="https://drive.google.com/file/d/1iBQl7ZfP_oeU6d8FYJWhSH6VgZarUVbK/view?usp=sharing"
             >
               Material auxiliar para download.
-            </Card.Link> */}
+            </Card.Link>
           </Card.Body>
         </Card>
       </Row>
