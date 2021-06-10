@@ -5,11 +5,12 @@ import { Container, ListGroup, Tab } from "react-bootstrap";
 import Aula1 from "./Aula1.js";
 import Aula2 from "./Aula2.js";
 import Aula3 from "./Aula3.js";
+import Aula4 from "./Aula4.js";
 
 export default function Navegacao() {
   return (
     <Container fluid>
-      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#aula3">
+      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#aula4">
         <Row>
           <Col>
             <ListGroup horizontal>
@@ -22,7 +23,7 @@ export default function Navegacao() {
               <ListGroup.Item action href="#aula3" variant="danger">
                 Aula 3 - 08/06
               </ListGroup.Item>
-              <ListGroup.Item disabled action href="#aula4" variante="danger">
+              <ListGroup.Item action href="#aula4" variant="danger">
                 Aula 4 - 10/06
               </ListGroup.Item>
             </ListGroup>
@@ -41,7 +42,7 @@ export default function Navegacao() {
                 <Aula3 />
               </Tab.Pane>
               <Tab.Pane eventKey="#aula4">
-                <Youtube embedId="eqaxodkF8Pc" />
+                <Aula4 />
               </Tab.Pane>
             </Tab.Content>
           </Col>
